@@ -1,5 +1,163 @@
-
 // Tiles
-$tiles-bg: #FFFFFF !default;
-$tiles-border: #efefef !default;
-$tiles-border-radius: 5px !default;
+// $tiles-bg: #FFFFFF !default;
+// $tiles-border: #efefef !default;
+// $tiles-border-radius: 5px !default;
+
+$tiles-bg: #ffffff !default;
+$tiles-border: #d8d8d8 !default;
+$tiles-text: #333333 !default;
+$tiles-bg-hover: #F2FBFC !default;
+$tiles-border-selected: #007B87 !default;
+$tiles-border-error: #C60C30 !default;
+$tiles-bg-disabled: #F0F0F0 !default;
+$tiles-border-disabled: #d8d8d8 !default;
+$tiles-text-disabled: #757575 !default;
+$tiles-border-radius: 4px !default;
+$tiles-box-shadow: 0px 2px 12px 0px #9a9a9a4d !default;
+$tiles-body-text-font-family: 'IBM Plex Sans' !default;
+$tiles-body-text-font-weight: 400 !default;
+$tiles-body-text-line-height: 24px !default;
+$tiles-body-text-font-size: 16px !default;
+$tiles-body-text-letter-spacing: 0px !default;
+$tiles-body-text-paragraph-spacing: 0px !default;
+$tiles-body-text-text-decoration: none !default;
+$tiles-body-text-text-case: none !default;
+$tiles-subtitle-font-family: 'IBM Plex Sans' !default;
+$tiles-subtitle-font-weight: normal !default;
+$tiles-subtitle-line-height: 24px !default;
+$tiles-subtitle-font-size: 16px !default;
+$tiles-subtitle-letter-spacing: 0px !default;
+$tiles-subtitle-paragraph-spacing: 0px !default;
+$tiles-subtitle-text-decoration: none !default;
+$tiles-subtitle-text-case: none !default;
+
+$tiles: (
+    bg: $tiles-bg,
+    border-color: $tiles-border,
+    border-radius: $tiles-border-radius,
+    box-shadow: $tiles-box-shadow,
+    color: $tiles-text,
+    error-border-color: $tiles-border-error,
+    disabled-bg: $tiles-bg-disabled,
+    disabled-border-color: $tiles-border-disabled,
+    disabled-color: $tiles-text-disabled,
+    hover-bg: $tiles-bg-hover,
+    selected-border-color: $tiles-border-selected,
+    body-font-family: $tiles-body-text-font-family,
+    body-font-size: $tiles-body-text-font-size,
+    body-font-weight: $tiles-body-text-font-weight,
+    body-letter-spacing: $tiles-body-text-letter-spacing,
+    body-line-height: $tiles-body-text-line-height,
+    body-paragraph-spacing: $tiles-body-text-paragraph-spacing,
+    body-text-decoration: $tiles-body-text-text-decoration,
+    body-text-transform: $tiles-body-text-text-case,
+    subtitle-font-family: $tiles-subtitle-text-font-family,
+    subtitle-font-size: $tiles-subtitle-text-font-size,
+    subtitle-font-weight: $tiles-subtitle-text-font-weight,
+    subtitle-letter-spacing: $tiles-subtitle-text-letter-spacing,
+    subtitle-line-height: $tiles-subtitle-text-line-height,
+    subtitle-paragraph-spacing: $tiles-subtitle-text-paragraph-spacing,
+    subtitle-text-decoration: $tiles-subtitle-text-text-decoration,
+    subtitle-text-transform: $tiles-subtitle-text-text-case,
+);
+
+// ------------------------------------------
+// Checkboxes / Radios
+// ------------------------------------------
+$form-check-input-class: 'custom-check';
+
+$checkbox-bg: $white !default; // <- updated
+
+$form-check-input-bg-checked: #003778 !default;
+$form-check-input-bg-checked-hover: #00549A !default;
+$form-check-input-bg-disabled-checked: #BABEC2 !default;
+
+$checkbox-border: #555555 !default; // <- updated
+$checkbox-border-hover: #007B87 !default; // <- updated
+
+$form-check-input-border-checked: #003778 !default;
+$form-check-input-border-checked-hover: #00549A !default;
+$form-check-input-border-width: 1px !default;
+$form-check-input-height: 16px !default;
+$form-check-input-height-lg: 22px !default;
+$form-check-input-input-margin-right: 8px !default;
+$form-check-input-input-margin-top: 4px !default;
+$form-check-input-margin-right: 8px !default;
+$form-check-input-width: 16px !default;
+$form-check-input-width-lg: 22px !default;
+$form-check-input-checked-color: $white !default;
+$form-check-input-bg-disabled: #f4f4f4 !default;
+$form-check-input-border-disabled: #BABEC2 !default;
+
+$checkbox-border-error: #BD2025 !default; // <- updated
+
+$form-check-label-font-family: $font-family-base !default;
+$form-check-label-font-weight: 400 !default;
+$form-check-label-line-height: 18px !default;
+$form-check-label-font-size: 14px !default;
+$form-check-label-letter-spacing: 0px !default;
+$form-check-label-paragraph-spacing: 0px !default;
+$form-check-label-text-decoration: none !default;
+$form-check-label-text-case: none !default;
+
+$check-bg-svg: url("data:image/svg+xml,<svg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'><path d='m3.2928975 7.1213175c.39052-.39052 1.02369-.39052 1.41421 0l2.12132 2.12131 4.94976-4.94973c.3905-.39053 1.0237-.39053 1.4142 0 .3905.39052.3905 1.02369 0 1.41421l-5.65685 5.65682c-.39053.3906-1.02369.3906-1.41422 0l-2.82842-2.82839c-.39053-.39053-.39053-1.02369 0-1.41422z' fill='#{$form-check-input-checked-color}'/></svg>") !default;
+$check-bg-svg-indeterminate: url("data:image/svg+xml,<svg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'><rect fill='#{$form-check-input-checked-color}' fill-rule='evenodd' height='2' rx='1' width='12' x='2' y='7'/></svg>") !default;
+$check-bg-size-checked: 100% !default;
+$radios-bg-svg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#{$form-check-input-checked-color}'/></svg>") !default;
+
+$form-check-check-radius: 4px !default;
+$form-check-check-radius-lg: 6px !default;
+$form-check-radios-radius: 50% !default;
+
+$form-check-padding-start: $form-check-input-width + $form-check-input-margin-right !default;
+$form-check-margin-bottom: .25rem !default;
+$form-check-min-height: $form-check-input-height;
+
+@if ($form-check-label-line-height > $form-check-min-height) {
+    $form-check-min-height: $form-check-label-line-height;
+}
+
+$form-check: (
+    bg: $checkbox-bg,
+    bg-checked: $form-check-input-bg-checked,
+    hover-bg-checked: $form-check-input-bg-checked-hover,
+    disabled-bg: $form-check-input-bg-disabled,
+    disabled-bg-checked: $form-check-input-bg-disabled-checked,
+    border-color: $checkbox-border,
+    hover-border-color: $checkbox-border-hover,
+    disabled-border-color: $form-check-input-border-disabled,
+    invalid-border-color: $checkbox-border-error,
+    border-color-checked: $form-check-input-border-checked,
+    border-width: $form-check-input-border-width,
+    height: $form-check-input-height,
+    height-lg: $form-check-input-height-lg,
+    icon-color: $form-check-input-checked-color,
+    margin-right: $form-check-input-margin-right,
+    width: $form-check-input-width,
+    width-lg: $form-check-input-width-lg,
+    focus-box-shadow: $inputs-drop-shadow-focus,
+
+    checkbox: (
+        bg-icon: $check-bg-svg,
+        bg-icon-indeterminate: $check-bg-svg-indeterminate,
+        bg-icon-size: $check-bg-size-checked,
+        border-radius: $form-check-check-radius,
+        border-radius-lg: $form-check-check-radius-lg,
+    ),
+
+    radio: (
+        bg-icon: $radios-bg-svg,
+        border-radius: $form-check-radios-radius,
+    ),
+
+    label: (
+        font-family: $form-check-label-font-family,
+        font-size: $form-check-label-font-size,
+        font-weight: $form-check-label-font-weight,
+        letter-spacing: $form-check-label-letter-spacing,
+        line-height: $form-check-label-line-height,
+        margin-bottom: $form-check-label-paragraph-spacing,
+        text-decoration: $form-check-label-text-decoration,
+        text-transform: $form-check-label-text-case,
+    )
+);

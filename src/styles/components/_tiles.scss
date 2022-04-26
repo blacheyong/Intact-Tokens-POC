@@ -1,0 +1,8 @@
+.tile {
+    background: $tiles-bg;
+    border: 1px solid $tiles-border;
+    border-radius: $tiles-border-radius;
+    box-shadow: $tiles-box-shadow;
+    display: flex;
+    flex-flow: row nowrap;
+}

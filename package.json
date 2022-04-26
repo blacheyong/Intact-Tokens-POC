@@ -4,7 +4,11 @@
   "description": "Demo for CSS generated with design tokens",
   "main": "index.js",
   "scripts": {
-    "tokens": "token-transformer data/tokens.json tokens/_tokens.json global --expandTypography && token-transformer data/tokens.json tokens/_belair.json global,Belair --expandTypography && token-transformer data/tokens.json tokens/_bna.json global,BNA --expandTypography  && token-transformer data/tokens.json tokens/_intact.json global,Intact --expandTypography   && token-transformer data/tokens.json tokens/_123.json global,123 --expandTypography && node ./build.js"
+    "tokens": "token-transformer data/tokens.json tokens/_tokens.json global --expandTypography && token-transformer data/tokens.json tokens/_belair.json global,Belair --expandTypography && token-transformer data/tokens.json tokens/_bna.json global,BNA --expandTypography  && token-transformer data/tokens.json tokens/_intact.json global,Intact --expandTypography   && token-transformer data/tokens.json tokens/_123.json global,123 --expandTypography && node ./build.js",
+    "sass": "node-sass --watch ./src/styles/ -o ./dist/css/ --source-map true",
+    "css:next": "postcss assets/critical.css -u postcss-cssnext",
+    "css:nano": "postcss -u cssnano --map false -r assets/critical.css",
+    "dev": "npm run sass | browser-sync start --server dist --watch true"
   },
   "repository": {
     "type": "git",

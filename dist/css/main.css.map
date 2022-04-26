@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../src/styles/main.scss",
+		"../../src/styles/settings/_tokens.scss",
+		"../../src/styles/settings/_variables.scss",
+		"../../src/styles/layout/_global.scss",
+		"../../src/styles/components/_form-check.scss",
+		"../../src/styles/components/_tiles.scss"
+	],
+	"names": [],
+	"mappings": "AGAA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,MAAM,GAClB;;AEJD,AAAA,KAAK,CAAC;EACF,UAAU,EJYH,OAAO;EIXd,MAAM,EAAE,GAAG,CAAC,KAAK,CJaN,OAAO;EIZlB,aAAa,EJWK,IAAI;EIVtB,UAAU,EJQK,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,SAAS;EIPxC,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,UAAU,GACxB"
+}

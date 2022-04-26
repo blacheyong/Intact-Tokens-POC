@@ -1,0 +1,29 @@
+{
+  "name": "intact-tokens-poc",
+  "version": "1.0.0",
+  "description": "Demo for CSS generated with design tokens",
+  "main": "index.js",
+  "scripts": {
+    "tokens": "token-transformer data/tokens.json tokens/_tokens.json global --expandTypography && token-transformer data/tokens.json tokens/_belair.json global,Belair --expandTypography && token-transformer data/tokens.json tokens/_bna.json global,BNA --expandTypography  && token-transformer data/tokens.json tokens/_intact.json global,Intact --expandTypography   && token-transformer data/tokens.json tokens/_123.json global,123 --expandTypography && node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacheyong/Intact-Tokens-POC.git"
+  },
+  "author": "Blache Yong & CO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blacheyong/Intact-Tokens-POC/issues"
+  },
+  "homepage": "https://github.com/blacheyong/Intact-Tokens-POC#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "cssnano": "^5.1.7",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "postcss-cssnext": "^3.1.1",
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "0.0.20"
+  }
+}

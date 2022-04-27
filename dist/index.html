@@ -31,3 +31,17 @@
     </div>
   </body>
 </html>
+
+<script>
+  const checkbox = document.querySelectorAll('.custom-check');
+
+  for(let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', () => {
+      if(checkbox[i].checked === true) {
+        checkbox[i].parentElement.parentElement.parentElement.classList.add('tile--selected');
+      } else {
+        checkbox[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
+      }
+    })
+  }
+</script>

@@ -80,17 +80,17 @@ $tiles: (
 // ------------------------------------------
 $form-check-input-class: 'custom-check';
 
-$checkbox-bg: #FFF !default; // <- updated
+$checkbox-bg: #FFFFFF !default; // <- updated
 
-$form-check-input-bg-checked: #003778 !default;
-$form-check-input-bg-checked-hover: #00549A !default;
+$form-check-input-bg-checked: #0F68D8 !default;
+$form-check-input-bg-checked-hover: #0F68D8 !default;
 $form-check-input-bg-disabled-checked: #BABEC2 !default;
 
-$checkbox-border: #555555 !default; // <- updated
+$checkbox-border: #757575 !default; // <- updated
 $checkbox-border-hover: #007B87 !default; // <- updated
 
-$form-check-input-border-checked: #003778 !default;
-$form-check-input-border-checked-hover: #00549A !default;
+$form-check-input-border-checked: #0F68D8 !default;
+$form-check-input-border-checked-hover: #0F68D8 !default;
 $form-check-input-border-width: 2px !default;
 $form-check-input-height: 24px !default;
 $form-check-input-height-lg: 22px !default;
@@ -99,11 +99,11 @@ $form-check-input-input-margin-top: 4px !default;
 $form-check-input-margin-right: 8px !default;
 $form-check-input-width: 24px !default;
 $form-check-input-width-lg: 22px !default;
-$form-check-input-checked-color: #FFF !default;
+$form-check-input-checked-color: #FFFFFF !default;
 $form-check-input-bg-disabled: #f4f4f4 !default;
 $form-check-input-border-disabled: #BABEC2 !default;
 
-$checkbox-border-error: #BD2025 !default; // <- updated
+$checkbox-border-error: #C8102E !default; // <- updated
 
 $form-check-label-font-family: 'Arial, sans-serif' !default;
 $form-check-label-font-weight: 400 !default;
@@ -117,7 +117,8 @@ $form-check-label-text-case: none !default;
 $check-bg-svg: url("data:image/svg+xml,<svg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'><path d='m3.2928975 7.1213175c.39052-.39052 1.02369-.39052 1.41421 0l2.12132 2.12131 4.94976-4.94973c.3905-.39053 1.0237-.39053 1.4142 0 .3905.39052.3905 1.02369 0 1.41421l-5.65685 5.65682c-.39053.3906-1.02369.3906-1.41422 0l-2.82842-2.82839c-.39053-.39053-.39053-1.02369 0-1.41422z' fill='#{$form-check-input-checked-color}'/></svg>") !default;
 $check-bg-svg-indeterminate: url("data:image/svg+xml,<svg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'><rect fill='#{$form-check-input-checked-color}' fill-rule='evenodd' height='2' rx='1' width='12' x='2' y='7'/></svg>") !default;
 $check-bg-size-checked: 100% !default;
-$radios-bg-svg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#{$form-check-input-checked-color}'/></svg>") !default;
+$radios-bg-svg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#0F68D8'/></svg>") !default;
+$radios-bg-checked: #FFFFFF;
 
 $form-check-check-radius: 4px !default;
 $form-check-check-radius-lg: 6px !default;
@@ -136,7 +137,7 @@ $inputs-drop-shadow-focus: null !default;
 $form-check: (
     bg: $checkbox-bg,
     bg-checked: $form-check-input-bg-checked,
-    hover-bg-checked: $form-check-input-bg-checked-hover,
+    // hover-bg-checked: $form-check-input-bg-checked-hover,
     disabled-bg: $form-check-input-bg-disabled,
     disabled-bg-checked: $form-check-input-bg-disabled-checked,
     border-color: $checkbox-border,
@@ -159,11 +160,14 @@ $form-check: (
         bg-icon-size: $check-bg-size-checked,
         border-radius: $form-check-check-radius,
         border-radius-lg: $form-check-check-radius-lg,
+        hover-bg-checked: $form-check-input-bg-checked-hover,
     ),
 
     radio: (
+        bg-checked: $radios-bg-checked,
         bg-icon: $radios-bg-svg,
         border-radius: $form-check-radios-radius,
+        hover-bg-checked: $radios-bg-checked,
     ),
 
     label: (

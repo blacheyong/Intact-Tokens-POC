@@ -174,7 +174,7 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFERENT BRANDS AND PLATFORMS
 
-['_tokens', '_belair', '_bna', '_intact', '_123'].map(function (theme) {
+['_tokens', '_belair', '_bna', '_intact', '_123ie'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);

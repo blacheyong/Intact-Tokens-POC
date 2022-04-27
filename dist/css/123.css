@@ -1,3 +1,4 @@
+/* <-- Custom Tokens */
 body {
   font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; }
 
@@ -8,9 +9,9 @@ body {
 
 .form-check {
   display: block;
-  min-height: 24px;
+  min-height: 18px;
   margin-bottom: 0.25rem;
-  padding-left: 32px; }
+  padding-left: 24px; }
   .form-check::after {
     display: block;
     clear: both;
@@ -25,17 +26,18 @@ body {
     margin-bottom: 0px; }
   .form-check > input {
     float: left;
-    margin-left: -32px;
+    margin-top: 1px;
+    margin-left: -24px;
     margin-right: 8px; }
     .form-check > input.custom-check {
       appearance: none;
       background: #ffffff;
       border-color: #757575;
       border-style: solid;
-      border-width: 2px;
-      height: 24px;
+      border-width: 1px;
+      height: 16px;
       transition: all 0.2s ease-in-out;
-      width: 24px; }
+      width: 16px; }
       .form-check > input.custom-check--lg {
         height: 22px;
         width: 22px; }
@@ -91,7 +93,7 @@ body {
     .form-check > input.custom-check--lg {
       margin-top: 0; }
       .form-check > input.custom-check--lg ~ label {
-        padding-top: -1px; }
+        padding-top: 3px; }
 
 .tile {
   background: #ffffff;
@@ -136,4 +138,4 @@ body {
   .tile--selected {
     border-color: #0F68D8; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=123.css.map */

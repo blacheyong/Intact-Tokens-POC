@@ -239,15 +239,34 @@
 </html>
 
 <script>
-  const checkbox = document.querySelectorAll('.custom-check');
+  const customCheck = document.querySelectorAll('.custom-check');
+  let checkboxes = [];
+  let radios = [];
 
-  for (let i = 0; i < checkbox.length; i++) {
-    checkbox[i].addEventListener('click', () => {
-      if (checkbox[i].checked === true) {
-        checkbox[i].parentElement.parentElement.parentElement.classList.add('tile--selected');
+  for (let i = 0; i < customCheck.length; i++) {
+    if(customCheck[i].type === 'checkbox') {
+      checkboxes.push(customCheck[i])
+    } else {
+      radios.push(customCheck[i])
+    }
+  }
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('click', () => {
+      if (checkbox.checked === true) {
+        checkbox.parentElement.parentElement.parentElement.classList.add('tile--selected');
       } else {
-        checkbox[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
+        checkbox.parentElement.parentElement.parentElement.classList.remove('tile--selected');
       }
     })
-  }
+  })
+
+  radios.forEach((radio) => {
+    radio.addEventListener('click', () => {
+      for(let i = 0; i < radios.length; i++) {
+        radios[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
+      }
+      radio.parentElement.parentElement.parentElement.classList.add('tile--selected');
+    })
+  })
 </script>

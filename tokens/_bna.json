@@ -59,6 +59,10 @@
       },
       "type": "boxShadow"
     },
+    "icon": {
+      "value": "#E41C23",
+      "type": "color"
+    },
     "bg": {
       "value": "#ffffff",
       "type": "color"

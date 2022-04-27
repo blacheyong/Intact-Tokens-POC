@@ -158,6 +158,10 @@
     "text-disabled": {
       "value": "#868E96",
       "type": "color"
+    },
+    "icon": {
+      "value": "#008DCC",
+      "type": "color"
     }
   },
   "font-family-base": {

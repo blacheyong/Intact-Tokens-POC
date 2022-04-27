@@ -27,6 +27,7 @@ $tiles-bg-disabled: #F0F0F0 !default;
 $tiles-border-disabled: #d8d8d8 !default;
 $tiles-text-disabled: #757575 !default;
 $tiles-border-radius: 4px !default;
+$tiles-icon: #0F68D8 !default;
 $tiles-box-shadow: 0px 2px 12px 0px #9a9a9a4d !default;
 $tiles-body-text-font-family: 'IBM Plex Sans' !default;
 $tiles-body-text-font-weight: 400 !default;
@@ -51,6 +52,7 @@ $tiles: (
     border-radius: $tiles-border-radius,
     box-shadow: $tiles-box-shadow,
     color: $tiles-text,
+    icon-color: $tiles-icon,
     error-border-color: $tiles-border-error,
     disabled-bg: $tiles-bg-disabled,
     disabled-border-color: $tiles-border-disabled,

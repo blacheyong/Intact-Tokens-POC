@@ -1,0 +1,39 @@
+// Form Check TODO: Make it more flexible, mixin or placeholder?
+.form-check {
+    display: block;
+    min-height: $form-check-min-height;
+    margin-bottom: $form-check-margin-bottom;
+    padding-left: $form-check-padding-start;
+
+    @include clearfix();
+
+    > label {
+        @include label-styles(map-get($form-check, label));
+    }
+
+    > input {
+        @include check-styles($form-check-input-class, $form-check);
+        float: left;
+
+        @if($form-check-input-height < $forms-label-line-height) {
+            margin-top: ($forms-label-line-height - $form-check-input-height) / 2;
+        }
+        margin-left: $form-check-padding-start * -1;
+        margin-right: $form-check-input-margin-right;
+
+        &[type="checkbox"] {
+            @include check-styles($form-check-input-class, map-get($form-check, checkbox));
+        }
+        &[type="radio"] {
+            @include check-styles($form-check-input-class, map-get($form-check, radio));
+        }
+        @if($form-check-input-height-lg > $forms-label-line-height) {
+            &.#{$form-check-input-class}--lg {
+                margin-top: 0;
+                & ~ label {
+                    padding-top: ($form-check-input-height-lg - $form-check-input-height) / 2;
+                }
+            }
+        }
+    }
+}

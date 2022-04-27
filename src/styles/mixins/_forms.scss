@@ -54,18 +54,18 @@
             }
         }
 
-        &:indeterminate {
-            background-image: escape-svg('#{map-get($check, bg-icon-indeterminate)}');
-            background-color: map-get($check, bg-checked);
-            background-size: map-get($check, bg-icon-size);
-            border-color: map-get($check, border-color-checked);
-            &:not(.disabled):not(:disabled):hover {
-                background-color: map-get($check, hover-bg-checked);
-            }
-            &:disabled, &.disabled {
-                background-color: map-get($check, disabled-bg-checked);
-            }
-        }
+        // &:indeterminate {
+        //     background-image: escape-svg('#{map-get($check, bg-icon-indeterminate)}');
+        //     background-color: map-get($check, bg-checked);
+        //     background-size: map-get($check, bg-icon-size);
+        //     border-color: map-get($check, border-color-checked);
+        //     &:not(.disabled):not(:disabled):hover {
+        //         background-color: map-get($check, hover-bg-checked);
+        //     }
+        //     &:disabled, &.disabled {
+        //         background-color: map-get($check, disabled-bg-checked);
+        //     }
+        // }
 
         &:disabled, &.disabled {
             background: map-get($check, disabled-bg);

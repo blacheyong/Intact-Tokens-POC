@@ -109,6 +109,8 @@ $form-check-padding-start: $form-check-input-width + $form-check-input-margin-ri
 $form-check-margin-bottom: .25rem !default;
 $form-check-min-height: $form-check-input-height;
 
+$inputs-drop-shadow-focus: null !default;
+
 @if ($form-check-label-line-height > $form-check-min-height) {
     $form-check-min-height: $form-check-label-line-height;
 }

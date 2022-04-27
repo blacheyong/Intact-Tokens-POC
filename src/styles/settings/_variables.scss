@@ -1,8 +1,4 @@
 // Tiles
-// $tiles-bg: #FFFFFF !default;
-// $tiles-border: #efefef !default;
-// $tiles-border-radius: 5px !default;
-
 $tiles-bg: #ffffff !default;
 $tiles-border: #d8d8d8 !default;
 $tiles-text: #333333 !default;
@@ -51,14 +47,14 @@ $tiles: (
     body-paragraph-spacing: $tiles-body-text-paragraph-spacing,
     body-text-decoration: $tiles-body-text-text-decoration,
     body-text-transform: $tiles-body-text-text-case,
-    subtitle-font-family: $tiles-subtitle-text-font-family,
-    subtitle-font-size: $tiles-subtitle-text-font-size,
-    subtitle-font-weight: $tiles-subtitle-text-font-weight,
-    subtitle-letter-spacing: $tiles-subtitle-text-letter-spacing,
-    subtitle-line-height: $tiles-subtitle-text-line-height,
-    subtitle-paragraph-spacing: $tiles-subtitle-text-paragraph-spacing,
-    subtitle-text-decoration: $tiles-subtitle-text-text-decoration,
-    subtitle-text-transform: $tiles-subtitle-text-text-case,
+    subtitle-font-family: $tiles-subtitle-font-family,
+    subtitle-font-size: $tiles-subtitle-font-size,
+    subtitle-font-weight: $tiles-subtitle-font-weight,
+    subtitle-letter-spacing: $tiles-subtitle-letter-spacing,
+    subtitle-line-height: $tiles-subtitle-line-height,
+    subtitle-paragraph-spacing: $tiles-subtitle-paragraph-spacing,
+    subtitle-text-decoration: $tiles-subtitle-text-decoration,
+    subtitle-text-transform: $tiles-subtitle-text-case,
 );
 
 // ------------------------------------------
@@ -66,7 +62,7 @@ $tiles: (
 // ------------------------------------------
 $form-check-input-class: 'custom-check';
 
-$checkbox-bg: $white !default; // <- updated
+$checkbox-bg: #FFF !default; // <- updated
 
 $form-check-input-bg-checked: #003778 !default;
 $form-check-input-bg-checked-hover: #00549A !default;
@@ -85,13 +81,13 @@ $form-check-input-input-margin-top: 4px !default;
 $form-check-input-margin-right: 8px !default;
 $form-check-input-width: 16px !default;
 $form-check-input-width-lg: 22px !default;
-$form-check-input-checked-color: $white !default;
+$form-check-input-checked-color: #FFF !default;
 $form-check-input-bg-disabled: #f4f4f4 !default;
 $form-check-input-border-disabled: #BABEC2 !default;
 
 $checkbox-border-error: #BD2025 !default; // <- updated
 
-$form-check-label-font-family: $font-family-base !default;
+$form-check-label-font-family: 'Arial, sans-serif' !default;
 $form-check-label-font-weight: 400 !default;
 $form-check-label-line-height: 18px !default;
 $form-check-label-font-size: 14px !default;

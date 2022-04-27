@@ -10,17 +10,38 @@
   <body>
     <div class="container">
         <div class="tile">
-          <div class="tile__thumbnail">
-              [img]
-          </div>
-          <div class="tile__content">
-            <h5 class="tile__subtitle">Title</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="tile__left-side">
+            <div class="tile__thumbnail">
+                [img]
+            </div>
+            <div class="tile__content">
+              <h5 class="tile__subtitle">Title</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
           </div>
           <div class="tile__check">
-              Checkbox/Radio
+            <div class="form-check">
+              <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox" value="option1">
+              <!-- <label class="form-check-label" for="exampleCheckbox">
+                  Checkbox
+              </label> -->
+            </div>
           </div>
         </div>
     </div>
   </body>
 </html>
+
+<script>
+  const checkbox = document.querySelectorAll('.custom-check');
+
+  for(let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', () => {
+      if(checkbox[i].checked === true) {
+        checkbox[i].parentElement.parentElement.parentElement.classList.add('tile--selected');
+      } else {
+        checkbox[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
+      }
+    })
+  }
+</script>

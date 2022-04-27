@@ -19,28 +19,24 @@
         border-bottom-left-radius: $tiles-border-radius - 1;
         flex-basis: 140px;
         height: 100%;
-        // margin-right: 16px;
         min-width: 140px;
         overflow: hidden;
         img {
-            // margin: -24px 0 -24px -24px;
-            // max-width: 170px; // 140px
             height: 100%;
             object-fit: cover;
             width: 100%;
         }
-        &--img {
-            background: url('../images/house-placeholder-img.jpg');
-            background-size: 100%;
-            border-radius: 4px 0 0 4px;
-            height: 100%;
-            margin: -24px 16px -24px -24px;
-            width: 140px;
+        &--icon {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            min-width: unset;
+            padding-left: 24px;
         }
     }
 
     &__content {
-        padding: 24px 0 24px 24px;
+        padding: 24px 10px 24px 24px;
     }
 
     &__subtitle, h5 {

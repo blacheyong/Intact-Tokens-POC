@@ -51,14 +51,6 @@ body {
           background-color: #00549A; }
         .form-check > input.custom-check:checked:disabled, .form-check > input.custom-check:checked.disabled {
           background-color: #BABEC2; }
-      .form-check > input.custom-check:indeterminate {
-        background-image: "";
-        background-color: #003778;
-        border-color: #003778; }
-        .form-check > input.custom-check:indeterminate:not(.disabled):not(:disabled):hover {
-          background-color: #00549A; }
-        .form-check > input.custom-check:indeterminate:disabled, .form-check > input.custom-check:indeterminate.disabled {
-          background-color: #BABEC2; }
       .form-check > input.custom-check:disabled, .form-check > input.custom-check.disabled {
         background: #f4f4f4;
         border-color: #BABEC2; }
@@ -74,9 +66,6 @@ body {
       .form-check > input[type="checkbox"].custom-check:checked {
         background-image: url("data:image/svg+xml,%3csvg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m3.2928975 7.1213175c.39052-.39052 1.02369-.39052 1.41421 0l2.12132 2.12131 4.94976-4.94973c.3905-.39053 1.0237-.39053 1.4142 0 .3905.39052.3905 1.02369 0 1.41421l-5.65685 5.65682c-.39053.3906-1.02369.3906-1.41422 0l-2.82842-2.82839c-.39053-.39053-.39053-1.02369 0-1.41422z' fill='%23FFF'/%3e%3c/svg%3e");
         background-size: 100%; }
-      .form-check > input[type="checkbox"].custom-check:indeterminate {
-        background-image: url("data:image/svg+xml,%3csvg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'%3e%3crect fill='%23FFF' fill-rule='evenodd' height='2' rx='1' width='12' x='2' y='7'/%3e%3c/svg%3e");
-        background-size: 100%; }
     .form-check > input[type="radio"].custom-check {
       appearance: none;
       border-style: solid;
@@ -86,8 +75,6 @@ body {
         outline: 0; }
       .form-check > input[type="radio"].custom-check:checked {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23FFF'/%3e%3c/svg%3e"); }
-      .form-check > input[type="radio"].custom-check:indeterminate {
-        background-image: ""; }
     .form-check > input.custom-check--lg {
       margin-top: 0; }
       .form-check > input.custom-check--lg ~ label {

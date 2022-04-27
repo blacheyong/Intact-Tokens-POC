@@ -8,6 +8,7 @@
     justify-content: space-between;
     flex-flow: row nowrap;
     padding: 24px;
+    width: 375px;
 
     &__left-side {
         display: flex;
@@ -38,6 +39,10 @@
         margin: 0 0 $tiles-body-text-paragraph-spacing;
         text-decoration: $tiles-body-text-text-decoration;
         text-transform: $tiles-body-text-text-case;
+    }
+
+    input {
+        margin: 0;
     }
 
     &:hover {

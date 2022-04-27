@@ -3,3 +3,14 @@
     max-width: 1200px;
     padding: 0 30px;
 }
+
+.row {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 30px;
+    .tile {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}

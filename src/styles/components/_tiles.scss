@@ -20,6 +20,9 @@
         display: flex;
         margin-right: 16px;
         width: 140px;
+        svg path {
+            fill: $tiles-icon;
+        }
         img {
             margin: -24px 0 -24px -24px;
             // max-width: 170px; // 140px

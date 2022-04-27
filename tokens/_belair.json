@@ -154,6 +154,10 @@
         "value": "none",
         "type": "textCase"
       }
+    },
+    "icon": {
+      "value": "#0F68D8",
+      "type": "color"
     }
   },
   "checkbox": {

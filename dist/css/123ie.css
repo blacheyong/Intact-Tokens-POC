@@ -1,5 +1,7 @@
+/* <-- Custom Tokens */
+/* <-- Hack for typography.com */
 body {
-  font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; }
+  font-family: Gotham Rounded A, Gotham Rounded B, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; }
 
 .container {
   margin: 0 auto;
@@ -30,7 +32,7 @@ body {
     .form-check > input.custom-check {
       appearance: none;
       background: #ffffff;
-      border-color: #757575;
+      border-color: #868E96;
       border-style: solid;
       border-width: 2px;
       height: 24px;
@@ -40,7 +42,7 @@ body {
         height: 22px;
         width: 22px; }
       .form-check > input.custom-check:not(.disabled):not(:disabled):hover {
-        border-color: #0F68D8; }
+        border-color: #008DCC; }
       .form-check > input.custom-check:not(.disabled):not(:disabled):focus {
         outline: 0; }
       .form-check > input.custom-check:checked {
@@ -82,9 +84,9 @@ body {
 
 .tile {
   background: #ffffff;
-  border: 1px solid #d8d8d8;
-  border-radius: 12px;
-  box-shadow: 0px 2px 8px 0px #d8d8d8b3;
+  border: 1px solid #C6CBD0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 12px 0px #9a9a9a4d;
   color: #333333;
   display: flex;
   justify-content: space-between;
@@ -106,21 +108,21 @@ body {
     text-transform: none; }
   .tile p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     letter-spacing: 0px;
     line-height: 24px;
     margin: 0 0 0px;
     text-decoration: none;
     text-transform: none; }
   .tile:hover {
-    background: #EAF2F8; }
+    background: #ECF3F5; }
   .tile--disabled {
-    background: #F0F0F0;
-    border-color: #d8d8d8;
-    color: #757575; }
+    background: #F1F3F4;
+    border-color: #C6CBD0;
+    color: #868E96; }
   .tile--invalid {
-    border-color: #C8102E; }
+    border-color: #F15966; }
   .tile--selected {
-    border-color: #0F68D8; }
+    border-color: #008DCC; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=123ie.css.map */

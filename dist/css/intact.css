@@ -9,9 +9,9 @@ body {
 
 .form-check {
   display: block;
-  min-height: 18px;
+  min-height: 24px;
   margin-bottom: 0.25rem;
-  padding-left: 24px; }
+  padding-left: 32px; }
   .form-check::after {
     display: block;
     clear: both;
@@ -26,18 +26,17 @@ body {
     margin-bottom: 0px; }
   .form-check > input {
     float: left;
-    margin-top: 1px;
-    margin-left: -24px;
+    margin-left: -32px;
     margin-right: 8px; }
     .form-check > input.custom-check {
       appearance: none;
       background: #ffffff;
       border-color: #757575;
       border-style: solid;
-      border-width: 1px;
-      height: 16px;
+      border-width: 2px;
+      height: 24px;
       transition: all 0.2s ease-in-out;
-      width: 16px; }
+      width: 24px; }
       .form-check > input.custom-check--lg {
         height: 22px;
         width: 22px; }
@@ -80,7 +79,7 @@ body {
     .form-check > input.custom-check--lg {
       margin-top: 0; }
       .form-check > input.custom-check--lg ~ label {
-        padding-top: 3px; }
+        padding-top: -1px; }
 
 .tile {
   background: #ffffff;

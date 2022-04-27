@@ -93,7 +93,7 @@
     },
     "body-text": {
       "fontFamily": {
-        "value": "Roboto",
+        "value": "Gilroy_BN",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -127,7 +127,7 @@
     },
     "subtitle": {
       "fontFamily": {
-        "value": "Roboto",
+        "value": "Gilroy_BN",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -159,6 +159,10 @@
         "type": "textCase"
       }
     }
+  },
+  "font-family-base": {
+    "value": "Gilroy_BN",
+    "type": "fontFamilies"
   },
   "checkbox": {
     "bg": {

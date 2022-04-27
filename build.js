@@ -55,12 +55,24 @@ StyleDictionaryPackage.registerTransform({
     name: 'typography/family',
     type: 'value',
     matcher: function (prop) {
-        return prop.path.includes('fontFamily')
+        return prop.path.includes('fontFamily') || prop.path.includes('fontFamilies')
     },
     transformer: function (prop) {
         return `'${prop.value}'`
     }
 });
+
+StyleDictionaryPackage.registerTransform({
+    name: 'fontFamilies',
+    type: 'value',
+    matcher: function (prop) {
+        return prop.type === 'fontFamilies'
+    },
+    transformer: function (prop) {
+        return `'${prop.value}'`
+    }
+});
+
 
 StyleDictionaryPackage.registerTransform({
     name: 'typography/fontWeight',
@@ -83,15 +95,15 @@ StyleDictionaryPackage.registerTransform({
             case 'Thin':
                 return '100'
                 break
-            case 'Extra Light':
+            case 'ExtraLight':
                 return '200'
             case 'Light':
                 return '300'
                 break
-            case 'Semi Bold':
+            case 'SemiBold':
                 return '600'
                 break
-            case 'Extra Bold':
+            case 'ExtraBold':
                 return '800'
                 break
             case 'Black':
@@ -147,7 +159,7 @@ function getStyleDictionaryConfig(theme) {
                 }]
             }, */
             "scss": {
-                "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "borderRadius", "shadow/spreadShadow","typography/px", "typography/fontWeight", "typography/family"],
+                "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px", "borderRadius", "shadow/spreadShadow","typography/px", "typography/fontWeight", "typography/family", "fontFamilies"],
                 "buildPath": `src/styles/settings/`,
                 "files": [{
                     "destination": `${theme}.scss`,

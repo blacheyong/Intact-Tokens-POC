@@ -123,16 +123,16 @@
         "type": "textCase"
       }
     },
+    "text": {
+      "value": "#484848",
+      "type": "color"
+    },
     "bg": {
       "value": "#ffffff",
       "type": "color"
     },
     "border": {
       "value": "#d8d8d8",
-      "type": "color"
-    },
-    "text": {
-      "value": "#333333",
       "type": "color"
     },
     "bg-hover": {
@@ -159,6 +159,10 @@
       "value": "#757575",
       "type": "color"
     }
+  },
+  "font-family-base": {
+    "value": "IBM Plex Sans",
+    "type": "fontFamilies"
   },
   "checkbox": {
     "bg": {

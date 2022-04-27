@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>POC Design Tokens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/intact.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="tile">
+          <div class="tile__left-side">
+            <div class="tile__thumbnail">
+                [img]
+            </div>
+            <div class="tile__content">
+              <h5 class="tile__subtitle">Title</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="tile__check">
+            <div class="form-check">
+              <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox" value="option1">
+              <!-- <label class="form-check-label" for="exampleCheckbox">
+                  Checkbox
+              </label> -->
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const checkbox = document.querySelectorAll('.custom-check');
+
+  for(let i = 0; i < checkbox.length; i++) {
+    checkbox[i].addEventListener('click', () => {
+      if(checkbox[i].checked === true) {
+        checkbox[i].parentElement.parentElement.parentElement.classList.add('tile--selected');
+      } else {
+        checkbox[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
+      }
+    })
+  }
+</script>

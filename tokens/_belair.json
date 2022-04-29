@@ -210,6 +210,10 @@
     "border-error": {
       "value": "#C8102E",
       "type": "color"
+    },
+    "border-disabled": {
+      "value": "#d8d8d8",
+      "type": "color"
     }
   },
   "font-family-base": {

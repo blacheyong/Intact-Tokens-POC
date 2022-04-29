@@ -84,6 +84,9 @@
         border-color: $tiles-border-disabled;
         color: $tiles-text-disabled;
         cursor: default;
+        .tile__thumbnail {
+            opacity: .6;
+        }
     }
     &--invalid {
         border-color: $tiles-border-error;

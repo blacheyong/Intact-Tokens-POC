@@ -165,7 +165,7 @@
     },
     "body-text-sm": {
       "fontFamily": {
-        "value": "Roboto",
+        "value": "IBM Plex Sans",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -217,6 +217,10 @@
     },
     "border-error": {
       "value": "#C60C30",
+      "type": "color"
+    },
+    "border-disabled": {
+      "value": "#d8d8d8",
       "type": "color"
     }
   }

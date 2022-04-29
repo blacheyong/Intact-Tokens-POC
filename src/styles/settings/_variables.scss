@@ -105,8 +105,8 @@ $form-check-input-width: 24px !default;
 $form-check-input-width-lg: 22px !default;
 $form-check-input-checked-color: #FFFFFF !default;
 $form-check-input-bg-disabled: #f4f4f4 !default;
-$form-check-input-border-disabled: #BABEC2 !default;
 
+$checkbox-border-disabled: #D8D8D8 !default; // <- updated
 $checkbox-border-error: #C8102E !default; // <- updated
 
 $form-check-label-font-family: 'Arial, sans-serif' !default;
@@ -146,7 +146,7 @@ $form-check: (
     disabled-bg-checked: $form-check-input-bg-disabled-checked,
     border-color: $checkbox-border,
     hover-border-color: $checkbox-border-hover,
-    disabled-border-color: $form-check-input-border-disabled,
+    disabled-border-color: $checkbox-border-disabled,
     invalid-border-color: $checkbox-border-error,
     border-color-checked: $form-check-input-border-checked,
     border-width: $form-check-input-border-width,

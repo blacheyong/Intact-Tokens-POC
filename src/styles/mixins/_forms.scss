@@ -41,6 +41,10 @@
             width: map-get($check, width-lg);
         }
 
+        &[aria-invalid="true"] {
+            border-color: map-get($check, invalid-border-color);
+        }
+
         &:not(.disabled):not(:disabled):hover {
             border-color: map-get($check, hover-border-color);
         }

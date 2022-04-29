@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 29 Apr 2022 15:04:37 GMT
+// Generated on Fri, 29 Apr 2022 15:55:36 GMT
 
 $neutral-neutral: #8e8e8e;
 $neutral-light: #d2d2d2;
@@ -18,6 +18,7 @@ $tiles-icon: #E41C23;
 $tiles-bg: #ffffff;
 $tiles-border-radius: 12px;
 $tiles-border: #d2d2d2;
+$tiles-text-color: #333333;
 $tiles-border-selected: #00314D;
 $tiles-border-error: #E41C23;
 $tiles-bg-disabled: #efefef;
@@ -31,14 +32,14 @@ $tiles-body-text-letter-spacing: 0px;
 $tiles-body-text-paragraph-spacing: 0px;
 $tiles-body-text-text-decoration: none;
 $tiles-body-text-text-case: none;
-$tiles-subtitle-font-family: 'Gilroy_BN';
-$tiles-subtitle-font-weight: 500;
-$tiles-subtitle-line-height: 24px;
-$tiles-subtitle-font-size: 16px;
-$tiles-subtitle-letter-spacing: 0px;
-$tiles-subtitle-paragraph-spacing: 0px;
-$tiles-subtitle-text-decoration: none;
-$tiles-subtitle-text-case: none;
+$tiles-title-font-family: 'Gilroy_BN';
+$tiles-title-font-weight: 500;
+$tiles-title-line-height: 24px;
+$tiles-title-font-size: 16px;
+$tiles-title-letter-spacing: 0px;
+$tiles-title-paragraph-spacing: 2px;
+$tiles-title-text-decoration: none;
+$tiles-title-text-case: none;
 $tiles-body-text-sm-font-family: 'Gilroy_BN';
 $tiles-body-text-sm-font-weight: 400;
 $tiles-body-text-sm-line-height: 21px;
@@ -47,6 +48,16 @@ $tiles-body-text-sm-letter-spacing: 0px;
 $tiles-body-text-sm-paragraph-spacing: 0px;
 $tiles-body-text-sm-text-decoration: none;
 $tiles-body-text-sm-text-case: none;
+$tiles-subtitle-color: #8e8e8e;
+$tiles-subtitle-font-family: 'Gilroy_BN';
+$tiles-subtitle-font-weight: 500;
+$tiles-subtitle-line-height: 21px;
+$tiles-subtitle-font-size: 14px;
+$tiles-subtitle-letter-spacing: 0px;
+$tiles-subtitle-paragraph-spacing: 8px;
+$tiles-subtitle-text-decoration: none;
+$tiles-subtitle-text-case: none;
+$tiles-title-color: #333333;
 $font-family-base: 'Gilroy_BN';
 $checkbox-bg: #ffffff;
 $checkbox-border: #8e8e8e;

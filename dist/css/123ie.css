@@ -47,6 +47,8 @@ body {
       .form-check > input.custom-check--lg {
         height: 22px;
         width: 22px; }
+      .form-check > input.custom-check[aria-invalid="true"] {
+        border-color: #F15966; }
       .form-check > input.custom-check:not(.disabled):not(:disabled):hover {
         border-color: #008DCC; }
       .form-check > input.custom-check:not(.disabled):not(:disabled):focus {
@@ -59,7 +61,7 @@ body {
           background-color: #BABEC2; }
       .form-check > input.custom-check:disabled, .form-check > input.custom-check.disabled {
         background: #f4f4f4;
-        border-color: #BABEC2; }
+        border-color: #C6CBD0; }
     .form-check > input[type="checkbox"].custom-check {
       appearance: none;
       border-style: solid;
@@ -119,12 +121,16 @@ body {
     .tile__thumbnail--icon {
       align-items: center;
       display: flex;
+      flex-basis: 80px;
       justify-content: flex-end;
-      min-width: unset;
-      padding-left: 24px; }
+      min-width: 80px;
+      padding-left: 16px;
+      width: 80px; }
   .tile__content {
     padding: 24px 10px 24px 24px; }
-  .tile__subtitle, .tile h5 {
+  .tile__subtitle {
+    color: #868E96;
+    display: block;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0px;
@@ -132,6 +138,16 @@ body {
     margin: 0 0 0px;
     text-decoration: none;
     text-transform: none; }
+  .tile__title, .tile h5 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin: 0 0 2px;
+    text-decoration: none;
+    text-transform: none; }
+    .tile__title:only-child, .tile h5:only-child {
+      margin-bottom: 0; }
   .tile p {
     font-size: 16px;
     font-weight: normal;
@@ -140,7 +156,7 @@ body {
     margin: 0 0 0px;
     text-decoration: none;
     text-transform: none; }
-  .tile__subtitle + p {
+  .tile__title + p {
     font-size: 14px;
     line-height: 21px; }
   .tile input {
@@ -155,6 +171,8 @@ body {
     border-color: #C6CBD0;
     color: #868E96;
     cursor: default; }
+    .tile--disabled .tile__thumbnail {
+      opacity: .6; }
   .tile--invalid {
     border-color: #F15966; }
   .tile--selected {

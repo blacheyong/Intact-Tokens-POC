@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 29 Apr 2022 15:04:37 GMT
+// Generated on Fri, 29 Apr 2022 15:55:36 GMT
 
 $neutral-neutral: #757575;
 $neutral-darker: #333333;
@@ -14,7 +14,7 @@ $tiles-box-shadow: 0px 2px 8px 0px #d8d8d8b3;
 $tiles-bg: #ffffff;
 $tiles-border-radius: 12px;
 $tiles-border: #d8d8d8;
-$tiles-text: #333333;
+$tiles-text-color: #333333;
 $tiles-bg-hover: #EAF2F8;
 $tiles-border-selected: #0F68D8;
 $tiles-border-error: #C8102E;
@@ -29,14 +29,14 @@ $tiles-body-text-letter-spacing: 0px;
 $tiles-body-text-paragraph-spacing: 0px;
 $tiles-body-text-text-decoration: none;
 $tiles-body-text-text-case: none;
-$tiles-subtitle-font-family: 'Roboto';
-$tiles-subtitle-font-weight: 500;
-$tiles-subtitle-line-height: 24px;
-$tiles-subtitle-font-size: 16px;
-$tiles-subtitle-letter-spacing: 0px;
-$tiles-subtitle-paragraph-spacing: 0px;
-$tiles-subtitle-text-decoration: none;
-$tiles-subtitle-text-case: none;
+$tiles-title-font-family: 'Roboto';
+$tiles-title-font-weight: 500;
+$tiles-title-line-height: 24px;
+$tiles-title-font-size: 16px;
+$tiles-title-letter-spacing: 0px;
+$tiles-title-paragraph-spacing: 2px;
+$tiles-title-text-decoration: none;
+$tiles-title-text-case: none;
 $tiles-icon: #0F68D8;
 $tiles-body-text-sm-font-family: 'Roboto';
 $tiles-body-text-sm-font-weight: 400;
@@ -46,6 +46,16 @@ $tiles-body-text-sm-letter-spacing: 0px;
 $tiles-body-text-sm-paragraph-spacing: 0px;
 $tiles-body-text-sm-text-decoration: none;
 $tiles-body-text-sm-text-case: none;
+$tiles-subtitle-color: #757575;
+$tiles-subtitle-font-family: 'Roboto';
+$tiles-subtitle-font-weight: 500;
+$tiles-subtitle-line-height: 21px;
+$tiles-subtitle-font-size: 14px;
+$tiles-subtitle-letter-spacing: 0px;
+$tiles-subtitle-paragraph-spacing: 8px;
+$tiles-subtitle-text-decoration: none;
+$tiles-subtitle-text-case: none;
+$tiles-title-color: #333333;
 $checkbox-bg: #ffffff;
 $checkbox-border: #757575;
 $checkbox-border-hover: #0F68D8;

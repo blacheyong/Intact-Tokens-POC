@@ -19,7 +19,9 @@ $escaped-characters: (
 // Tiles
 $tiles-bg: #ffffff !default;
 $tiles-border: #d8d8d8 !default;
-$tiles-text: #333333 !default;
+$tiles-text-color: #333333 !default;
+$tiles-subtitle-color: #757575 !default;
+$tiles-title-color: #333333 !default;
 $tiles-bg-hover: #F2FBFC !default;
 $tiles-border-selected: #007B87 !default;
 $tiles-border-error: #C60C30 !default;
@@ -29,7 +31,7 @@ $tiles-text-disabled: #757575 !default;
 $tiles-border-radius: 4px !default;
 $tiles-icon: #0F68D8 !default;
 $tiles-box-shadow: 0px 2px 12px 0px #9a9a9a4d !default;
-$tiles-body-text-font-family: 'IBM Plex Sans' !default;
+$tiles-body-text-font-family: 'Roboto' !default;
 $tiles-body-text-font-weight: 400 !default;
 $tiles-body-text-line-height: 24px !default;
 $tiles-body-text-font-size: 16px !default;
@@ -39,14 +41,22 @@ $tiles-body-text-text-decoration: none !default;
 $tiles-body-text-text-case: none !default;
 $tiles-body-text-sm-line-height: 21px !default;
 $tiles-body-text-sm-font-size: 14px !default;
-$tiles-subtitle-font-family: 'IBM Plex Sans' !default;
-$tiles-subtitle-font-weight: normal !default;
-$tiles-subtitle-line-height: 24px !default;
+$tiles-subtitle-font-family: 'Roboto' !default;
+$tiles-subtitle-font-weight: 500 !default;
+$tiles-subtitle-line-height: 21px !default;
 $tiles-subtitle-font-size: 16px !default;
 $tiles-subtitle-letter-spacing: 0px !default;
 $tiles-subtitle-paragraph-spacing: 0px !default;
 $tiles-subtitle-text-decoration: none !default;
 $tiles-subtitle-text-case: none !default;
+$tiles-title-font-family: 'Roboto' !default;
+$tiles-title-font-weight: 500 !default;
+$tiles-title-line-height: 24px !default;
+$tiles-title-font-size: 16px !default;
+$tiles-title-letter-spacing: 0px !default;
+$tiles-title-paragraph-spacing: 0px !default;
+$tiles-title-text-decoration: none !default;
+$tiles-title-text-case: none !default;
 
 // $tiles: (
 //     bg: $tiles-bg,

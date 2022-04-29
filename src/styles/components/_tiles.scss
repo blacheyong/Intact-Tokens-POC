@@ -4,6 +4,7 @@
     border-radius: $tiles-border-radius;
     box-shadow: $tiles-box-shadow;
     color: $tiles-text;
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
@@ -60,15 +61,21 @@
         text-transform: $tiles-body-text-text-case;
     }
 
+    &__subtitle + p {
+        font-size: $tiles-body-text-sm-font-size;
+        line-height: $tiles-body-text-sm-line-height;
+    }
+
     input {
         margin: 0;
+        pointer-events: none;
     }
     
     &__check {
         padding: 24px 24px 0 0;
     }
 
-    &:hover {
+    &:not(.tile--disabled):hover {
         background: $tiles-bg-hover;
     }
 
@@ -76,11 +83,13 @@
         background: $tiles-bg-disabled;
         border-color: $tiles-border-disabled;
         color: $tiles-text-disabled;
+        cursor: default;
     }
     &--invalid {
         border-color: $tiles-border-error;
     }
     &--selected {
+        background-color: $tiles-bg-hover;
         border-color: $tiles-border-selected;
     }
 }

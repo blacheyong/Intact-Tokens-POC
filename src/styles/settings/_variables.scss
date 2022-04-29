@@ -37,6 +37,8 @@ $tiles-body-text-letter-spacing: 0px !default;
 $tiles-body-text-paragraph-spacing: 0px !default;
 $tiles-body-text-text-decoration: none !default;
 $tiles-body-text-text-case: none !default;
+$tiles-body-text-sm-line-height: 21px !default;
+$tiles-body-text-sm-font-size: 14px !default;
 $tiles-subtitle-font-family: 'IBM Plex Sans' !default;
 $tiles-subtitle-font-weight: normal !default;
 $tiles-subtitle-line-height: 24px !default;
@@ -46,36 +48,36 @@ $tiles-subtitle-paragraph-spacing: 0px !default;
 $tiles-subtitle-text-decoration: none !default;
 $tiles-subtitle-text-case: none !default;
 
-$tiles: (
-    bg: $tiles-bg,
-    border-color: $tiles-border,
-    border-radius: $tiles-border-radius,
-    box-shadow: $tiles-box-shadow,
-    color: $tiles-text,
-    icon-color: $tiles-icon,
-    error-border-color: $tiles-border-error,
-    disabled-bg: $tiles-bg-disabled,
-    disabled-border-color: $tiles-border-disabled,
-    disabled-color: $tiles-text-disabled,
-    hover-bg: $tiles-bg-hover,
-    selected-border-color: $tiles-border-selected,
-    body-font-family: $tiles-body-text-font-family,
-    body-font-size: $tiles-body-text-font-size,
-    body-font-weight: $tiles-body-text-font-weight,
-    body-letter-spacing: $tiles-body-text-letter-spacing,
-    body-line-height: $tiles-body-text-line-height,
-    body-paragraph-spacing: $tiles-body-text-paragraph-spacing,
-    body-text-decoration: $tiles-body-text-text-decoration,
-    body-text-transform: $tiles-body-text-text-case,
-    subtitle-font-family: $tiles-subtitle-font-family,
-    subtitle-font-size: $tiles-subtitle-font-size,
-    subtitle-font-weight: $tiles-subtitle-font-weight,
-    subtitle-letter-spacing: $tiles-subtitle-letter-spacing,
-    subtitle-line-height: $tiles-subtitle-line-height,
-    subtitle-paragraph-spacing: $tiles-subtitle-paragraph-spacing,
-    subtitle-text-decoration: $tiles-subtitle-text-decoration,
-    subtitle-text-transform: $tiles-subtitle-text-case,
-);
+// $tiles: (
+//     bg: $tiles-bg,
+//     border-color: $tiles-border,
+//     border-radius: $tiles-border-radius,
+//     box-shadow: $tiles-box-shadow,
+//     color: $tiles-text,
+//     icon-color: $tiles-icon,
+//     error-border-color: $tiles-border-error,
+//     disabled-bg: $tiles-bg-disabled,
+//     disabled-border-color: $tiles-border-disabled,
+//     disabled-color: $tiles-text-disabled,
+//     hover-bg: $tiles-bg-hover,
+//     selected-border-color: $tiles-border-selected,
+//     body-font-family: $tiles-body-text-font-family,
+//     body-font-size: $tiles-body-text-font-size,
+//     body-font-weight: $tiles-body-text-font-weight,
+//     body-letter-spacing: $tiles-body-text-letter-spacing,
+//     body-line-height: $tiles-body-text-line-height,
+//     body-paragraph-spacing: $tiles-body-text-paragraph-spacing,
+//     body-text-decoration: $tiles-body-text-text-decoration,
+//     body-text-transform: $tiles-body-text-text-case,
+//     subtitle-font-family: $tiles-subtitle-font-family,
+//     subtitle-font-size: $tiles-subtitle-font-size,
+//     subtitle-font-weight: $tiles-subtitle-font-weight,
+//     subtitle-letter-spacing: $tiles-subtitle-letter-spacing,
+//     subtitle-line-height: $tiles-subtitle-line-height,
+//     subtitle-paragraph-spacing: $tiles-subtitle-paragraph-spacing,
+//     subtitle-text-decoration: $tiles-subtitle-text-decoration,
+//     subtitle-text-transform: $tiles-subtitle-text-case,
+// );
 
 // ------------------------------------------
 // Checkboxes / Radios

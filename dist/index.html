@@ -31,9 +31,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-1" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -54,9 +51,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-2" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -77,9 +71,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-3" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -102,9 +93,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-3" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -118,9 +106,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-3" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -133,9 +118,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-3" value="option1">
-            <!-- <label class="form-check-label" for="exampleCheckbox">
-                    Checkbox
-                </label> -->
           </div>
         </div>
       </div>
@@ -159,9 +141,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="radio" name="exampleRadio" id="exampleRadio-1" value="option1">
-            <!-- <label class="form-check-label" for="exampleRadio">
-                    Radio
-                </label> -->
           </div>
         </div>
       </div>
@@ -182,9 +161,6 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="radio" name="exampleRadio" id="exampleRadio-2" value="option2">
-            <!-- <label class="form-check-label" for="exampleRadio">
-                    Radio
-                </label> -->
           </div>
         </div>
       </div>
@@ -205,68 +181,67 @@
         <div class="tile__check">
           <div class="form-check">
             <input class="custom-check" type="radio" name="exampleRadio" id="exampleRadio-3" value="option3">
-            <!-- <label class="form-check-label" for="exampleRadio">
-                    Radio
-                </label> -->
           </div>
         </div>
       </div>
     </div>
+    <div class="row">
 
-    <div class="tile">
-      <div class="tile__left-side">
-        <div class="tile__thumbnail">
-          <img src="./images/house-placeholder-img.jpg" alt="placeholder">
+    
+      <div class="tile">
+        <div class="tile__left-side">
+          <div class="tile__thumbnail">
+            <img src="./images/house-placeholder-img.jpg" alt="placeholder">
+          </div>
+          <div class="tile__content">
+            <h5 class="tile__subtitle">Title</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
         </div>
-        <div class="tile__content">
-          <h5 class="tile__subtitle">Title</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="tile__check">
+          <div class="form-check">
+            <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-1" value="option1">
+          </div>
         </div>
       </div>
-      <div class="tile__check">
-        <div class="form-check">
-          <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-1" value="option1">
-          <!-- <label class="form-check-label" for="exampleCheckbox">
-                  Checkbox
-              </label> -->
+
+      <div class="tile tile--invalid">
+        <div class="tile__left-side">
+          <div class="tile__thumbnail">
+            <img src="./images/house-placeholder-img.jpg" alt="placeholder">
+          </div>
+          <div class="tile__content">
+            <h5 class="tile__subtitle">Title</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="tile__check">
+          <div class="form-check">
+            <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-1" value="option1">
+          </div>
         </div>
       </div>
+
+      <div class="tile tile--disabled">
+        <div class="tile__left-side">
+          <div class="tile__thumbnail">
+            <img src="./images/house-placeholder-img.jpg" alt="placeholder">
+          </div>
+          <div class="tile__content">
+            <h5 class="tile__subtitle">Title</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="tile__check">
+          <div class="form-check">
+            <input class="custom-check" type="checkbox" name="exampleCheckbox" id="exampleCheckbox-1" value="option1">
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
+  <script src="js/tiles.js"></script>
 </body>
-
 </html>
-
-<script>
-  const customCheck = document.querySelectorAll('.custom-check');
-  let checkboxes = [];
-  let radios = [];
-
-  for (let i = 0; i < customCheck.length; i++) {
-    if(customCheck[i].type === 'checkbox') {
-      checkboxes.push(customCheck[i])
-    } else {
-      radios.push(customCheck[i])
-    }
-  }
-
-  checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('click', () => {
-      if (checkbox.checked === true) {
-        checkbox.parentElement.parentElement.parentElement.classList.add('tile--selected');
-      } else {
-        checkbox.parentElement.parentElement.parentElement.classList.remove('tile--selected');
-      }
-    })
-  })
-
-  radios.forEach((radio) => {
-    radio.addEventListener('click', () => {
-      for(let i = 0; i < radios.length; i++) {
-        radios[i].parentElement.parentElement.parentElement.classList.remove('tile--selected');
-      }
-      radio.parentElement.parentElement.parentElement.classList.add('tile--selected');
-    })
-  })
-</script>

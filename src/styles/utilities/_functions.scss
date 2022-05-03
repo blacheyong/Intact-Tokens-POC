@@ -12,3 +12,15 @@
   
     @return $string;
 }
+
+// PX to REM
+@function pxToRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+// Line-height
+@function relativeLineHeight($lineHeightPx, $fontSize) {
+  $lineHeight: $lineHeightPx / $fontSize;
+  @return $lineHeight;
+}

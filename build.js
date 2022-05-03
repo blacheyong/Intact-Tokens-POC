@@ -78,7 +78,8 @@ StyleDictionaryPackage.registerTransform({
     name: 'typography/fontWeight',
     type: 'value',
     matcher: function (prop) {
-        return prop.path.includes('fontWeight')
+        // return prop.path.includes('fontWeight')
+        return prop.type === 'fontWeights'
     },
     transformer: function (prop) {
         const thisValue = prop.value

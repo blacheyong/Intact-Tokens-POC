@@ -1,3 +1,22 @@
 body {
     font-family: $base-font-family;
 }
+
+%body-default-bold {
+    @include body-text(map-get($body, default), $body-bold-font-weight);
+}
+%body-default-regular {
+    @include body-text(map-get($body, default), $body-regular-font-weight);
+}
+%body-small-bold {
+    @include body-text(map-get($body, small), $body-bold-font-weight);
+}
+%body-small-regular {
+    @include body-text(map-get($body, small), $body-regular-font-weight);
+}
+%body-xsmall-bold {
+    @include body-text(map-get($body, xsmall), $body-bold-font-weight);
+}
+%body-xsmall-regular {
+    @include body-text(map-get($body, xsmall), $body-regular-font-weight);
+}

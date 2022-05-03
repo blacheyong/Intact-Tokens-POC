@@ -1,6 +1,75 @@
 // Typography
+$base-font-size: 16px !default;
 $font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $base-font-family: #{$font-family-base}, #{$font-family-sans-serif} !default;
+
+$heading-font-family: $base-font-family !default;
+$heading-font-weight: bold !default;
+
+$heading-xl: (
+    font-size: $heading-xl-font-size,
+    line-height: $heading-xl-line-height 
+);
+$heading-lg: (
+    font-size: $heading-lg-font-size,
+    line-height: $heading-lg-line-height 
+);
+$heading-md: (
+    font-size: $heading-md-font-size,
+    line-height: $heading-md-line-height 
+);
+$heading-sm: (
+    font-size: $heading-sm-font-size,
+    line-height: $heading-sm-line-height 
+);
+$heading-xs: (
+    font-size: $heading-xs-font-size,
+    line-height: $heading-xs-line-height 
+);
+
+
+$subheading-font-family: $base-font-family !default;
+$subheading-font-weight: regular !default;
+
+$subheading-xl: (
+    font-size: $heading-xl-font-size,
+    line-height: $heading-xl-line-height 
+);
+$subheading-lg: (
+    font-size: $heading-lg-font-size,
+    line-height: $heading-lg-line-height 
+);
+$subheading-md: (
+    font-size: $heading-md-font-size,
+    line-height: $heading-md-line-height 
+);
+$subheading-sm: (
+    font-size: $heading-sm-font-size,
+    line-height: $heading-sm-line-height 
+);
+$subheading-xs: (
+    font-size: $heading-xs-font-size,
+    line-height: $heading-xs-line-height 
+);
+
+$body-font-family: $base-font-family !default;
+$body-bold-font-weight: bold !default;
+$body-regular-font-weight: regular !default;
+
+$body: (
+    default: (
+        font-size: $body-default-regular-font-size,
+        line-height: $body-default-regular-line-height
+    ),
+    small: (
+        font-size: $body-small-regular-font-size,
+        line-height: $body-small-regular-line-height
+    ),
+    xsmall: (
+        font-size: $body-xsmall-regular-font-size,
+        line-height: $body-xsmall-regular-line-height
+    )
+);
 
 // Animation
 $default-timing: .2s !default;

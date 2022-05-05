@@ -1,22 +1,58 @@
+@import '../mixins/typography';
+
 body {
     font-family: $base-font-family;
 }
 
-%body-default-bold {
+// Headings & Subheadings
+%heading-xl, .heading-xl {
+    @include heading-types(map-get($headings, xl), $heading-font-family, $heading-font-weight);
+}
+%subheading-xl, .subheading-xl {
+    @include heading-types(map-get($subheadings, xl), $subheading-font-family, $subheading-font-weight);
+}
+%heading-lg, .heading-lg {
+    @include heading-types(map-get($headings, lg), $heading-font-family, $heading-font-weight);
+}
+%subheading-lg, .subheading-lg {
+    @include heading-types(map-get($subheadings, lg), $subheading-font-family, $subheading-font-weight);
+}
+%heading-md, .heading-md {
+    @include heading-types(map-get($headings, md), $heading-font-family, $heading-font-weight);
+}
+%subheading-md, .subheading-md {
+    @include heading-types(map-get($subheadings, md), $subheading-font-family, $subheading-font-weight);
+}
+%heading-sm, .heading-sm {
+    @include heading-types(map-get($headings, sm), $heading-font-family, $heading-font-weight);
+}
+%subheading-sm, .subheading-sm {
+    @include heading-types(map-get($subheadings, sm), $subheading-font-family, $subheading-font-weight);
+}
+%heading-xs, .heading-xs {
+    @include heading-types(map-get($headings, xs), $heading-font-family, $heading-font-weight);
+}
+%subheading-xs, .subheading-xs {
+    @include heading-types(map-get($subheadings, xs), $subheading-font-family, $subheading-font-weight);
+}
+
+
+// Body Text
+%body-default-bold, .body-default-bold {
     @include body-text(map-get($body, default), $body-bold-font-weight);
 }
-%body-default-regular {
+%body-default-regular, .body-default-regular {
     @include body-text(map-get($body, default), $body-regular-font-weight);
 }
-%body-small-bold {
+%body-small-bold, .body-small-bold {
     @include body-text(map-get($body, small), $body-bold-font-weight);
 }
-%body-small-regular {
+%body-small-regular, .body-small-regular {
     @include body-text(map-get($body, small), $body-regular-font-weight);
 }
-%body-xsmall-bold {
+%body-xsmall-bold, .body-xsmall-bold {
     @include body-text(map-get($body, xsmall), $body-bold-font-weight);
 }
-%body-xsmall-regular {
+%body-xsmall-regular, .body-xsmall-regular {
     @include body-text(map-get($body, xsmall), $body-regular-font-weight);
 }

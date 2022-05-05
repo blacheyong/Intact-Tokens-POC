@@ -7,7 +7,7 @@
 // Settings
 //-------------------------------------------
 @import "settings/tokens";
-@import "settings/intact"; /* <-- Custom Tokens */
+@import "settings/bna"; /* <-- Custom Tokens */
 $font-family-base: "Gilroy_BN"; /* <-- Hack for typography.com */
 @import "settings/variables";
 
@@ -21,6 +21,7 @@ $font-family-base: "Gilroy_BN"; /* <-- Hack for typography.com */
 // ------------------------------------------
 // @font-face
 //-------------------------------------------
+@include font-face('Gilroy_BN', '../fonts/Gilroy_BN-Light', 300, null, woff2 woff);
 @include font-face('Gilroy_BN', '../fonts/Gilroy_BN-Regular', 400, null, woff2 woff);
 @include font-face('Gilroy_BN', '../fonts/Gilroy_BN-SemiBold', 500, null, woff2 woff);
 

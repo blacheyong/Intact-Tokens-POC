@@ -35,6 +35,12 @@
             min-width: 80px;
             padding-left: 16px;
             width: 80px;
+            svg {
+                fill: $tiles-icon;
+                path {
+                    fill: inherit
+                }
+            }
         }
     }
 
@@ -76,6 +82,10 @@
 
     &:not(.tile--disabled):hover {
         background: $tiles-bg-hover;
+
+        input {
+            border-color: $checkbox-border-hover;
+        }
     }
 
     &--disabled {

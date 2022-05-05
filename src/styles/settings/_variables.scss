@@ -6,50 +6,54 @@ $base-font-family: #{$font-family-base}, #{$font-family-sans-serif} !default;
 $heading-font-family: $base-font-family !default;
 $heading-font-weight: bold !default;
 
-$heading-xl: (
-    font-size: $heading-xl-font-size,
-    line-height: $heading-xl-line-height 
-);
-$heading-lg: (
-    font-size: $heading-lg-font-size,
-    line-height: $heading-lg-line-height 
-);
-$heading-md: (
-    font-size: $heading-md-font-size,
-    line-height: $heading-md-line-height 
-);
-$heading-sm: (
-    font-size: $heading-sm-font-size,
-    line-height: $heading-sm-line-height 
-);
-$heading-xs: (
-    font-size: $heading-xs-font-size,
-    line-height: $heading-xs-line-height 
+$headings: (
+    xl: (
+        font-size: $heading-xl-font-size,
+        line-height: $heading-xl-line-height 
+    ),
+    lg: (
+        font-size: $heading-lg-font-size,
+        line-height: $heading-lg-line-height
+    ),
+    md: (
+        font-size: $heading-md-font-size,
+        line-height: $heading-md-line-height 
+    ),
+    sm: (
+        font-size: $heading-sm-font-size,
+        line-height: $heading-sm-line-height 
+    ),
+    xs: (
+        font-size: $heading-xs-font-size,
+        line-height: $heading-xs-line-height
+    )
 );
 
 
 $subheading-font-family: $base-font-family !default;
 $subheading-font-weight: regular !default;
 
-$subheading-xl: (
-    font-size: $heading-xl-font-size,
-    line-height: $heading-xl-line-height 
-);
-$subheading-lg: (
-    font-size: $heading-lg-font-size,
-    line-height: $heading-lg-line-height 
-);
-$subheading-md: (
-    font-size: $heading-md-font-size,
-    line-height: $heading-md-line-height 
-);
-$subheading-sm: (
-    font-size: $heading-sm-font-size,
-    line-height: $heading-sm-line-height 
-);
-$subheading-xs: (
-    font-size: $heading-xs-font-size,
-    line-height: $heading-xs-line-height 
+$subheadings: (
+    xl: (
+        font-size: $heading-xl-font-size,
+        line-height: $heading-xl-line-height 
+    ),
+    lg: (
+        font-size: $heading-lg-font-size,
+        line-height: $heading-lg-line-height
+    ),
+    md: (
+        font-size: $heading-md-font-size,
+        line-height: $heading-md-line-height 
+    ),
+    sm: (
+        font-size: $heading-sm-font-size,
+        line-height: $heading-sm-line-height 
+    ),
+    xs: (
+        font-size: $heading-xs-font-size,
+        line-height: $heading-xs-line-height 
+    )
 );
 
 $body-font-family: $base-font-family !default;
@@ -219,7 +223,7 @@ $inputs-drop-shadow-focus: null !default;
 
 $form-check: (
     bg: $checkbox-bg,
-    bg-checked: $form-check-input-bg-checked,
+    bg-checked: $checkbox-border-hover,
     // hover-bg-checked: $form-check-input-bg-checked-hover,
     disabled-bg: $form-check-input-bg-disabled,
     disabled-bg-checked: $form-check-input-bg-disabled-checked,
@@ -227,7 +231,7 @@ $form-check: (
     hover-border-color: $checkbox-border-hover,
     disabled-border-color: $checkbox-border-disabled,
     invalid-border-color: $checkbox-border-error,
-    border-color-checked: $form-check-input-border-checked,
+    border-color-checked: $checkbox-border-hover,
     border-width: $form-check-input-border-width,
     height: $form-check-input-height,
     height-lg: $form-check-input-height-lg,

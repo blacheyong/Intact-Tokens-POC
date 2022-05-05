@@ -1,6 +1,14 @@
 @mixin body-text($body-text, $font-weight) {
-    font-family: '#{$body-font-family}', #{$font-family-sans-serif};
+    font-family: #{$body-font-family}, #{$font-family-sans-serif};
     font-size: pxToRem(map-get($body-text, font-size));
     font-weight: $font-weight;
     line-height: relativeLineHeight(map-get($body-text, line-height), map-get($body-text, font-size));
+}
+
+@mixin heading-types($heading, $font-family, $font-weight) {
+    font-family: #{$font-family}, #{$font-family-sans-serif};
+    font-size: pxToRem(map-get($heading, font-size));
+    font-weight: $font-weight;
+    line-height: relativeLineHeight(map-get($heading, line-height), map-get($heading, font-size));
+    margin: 0; // TEMP
 }

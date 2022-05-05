@@ -9,6 +9,9 @@
 @import "settings/tokens";
 @import "settings/123ie"; /* <-- Custom Tokens */
 $font-family-base: "Gotham Rounded A", "Gotham Rounded B"; /* <-- Hack for typography.com */
+$body-font-family: $font-family-base;
+$heading-font-family:"Gotham Rounded A", "Gotham Rounded B";
+$subheading-font-family: "Gotham Rounded A", "Gotham Rounded B";
 @import "settings/variables";
 
 // ------------------------------------------

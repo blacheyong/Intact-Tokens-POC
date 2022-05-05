@@ -1,6 +1,114 @@
 /* <-- Custom Tokens */
+/* <-- Hack for Adobe Fonts */
+/* <-- Hack for Adobe Fonts */
 body {
   font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; }
+
+.heading-xl {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0; }
+
+.subheading-xl {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.25;
+  margin: 0; }
+
+.heading-lg {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.33333;
+  margin: 0; }
+
+.subheading-lg {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.33333;
+  margin: 0; }
+
+.heading-md {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0; }
+
+.subheading-md {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0; }
+
+.heading-sm {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0; }
+
+.subheading-sm {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0; }
+
+.heading-xs {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0; }
+
+.subheading-xs {
+  font-family: canada-type-gibson, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0; }
+
+.tile__title, .tile h5, .body-default-bold {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5; }
+
+.tile p, .body-default-regular {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.tile__subtitle, .body-small-bold {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5; }
+
+.tile__title + p, .body-small-regular {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.body-xsmall-bold {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.33333; }
+
+.body-xsmall-regular {
+  font-family: IBM Plex Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.33333; }
 
 .container {
   margin: 0 auto;
@@ -10,7 +118,7 @@ body {
 .row {
   align-items: flex-start;
   display: flex;
-  margin-bottom: 30px; }
+  margin-top: 30px; }
   .row .tile:not(:last-child) {
     margin-right: 30px; }
 
@@ -54,8 +162,8 @@ body {
         outline: 0; }
       .form-check > input.custom-check:checked {
         background-image: "";
-        background-color: #0F68D8;
-        border-color: #0F68D8; }
+        background-color: #007B87;
+        border-color: #007B87; }
         .form-check > input.custom-check:checked:disabled, .form-check > input.custom-check:checked.disabled {
           background-color: #BABEC2; }
       .form-check > input.custom-check:disabled, .form-check > input.custom-check.disabled {
@@ -125,39 +233,22 @@ body {
       min-width: 80px;
       padding-left: 16px;
       width: 80px; }
+      .tile__thumbnail--icon svg {
+        fill: #007B87; }
+        .tile__thumbnail--icon svg path {
+          fill: inherit; }
   .tile__content {
     padding: 24px 10px 24px 24px; }
   .tile__subtitle {
     color: #757575;
     display: block;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    line-height: 21px;
-    margin: 0 0 8px;
-    text-decoration: none;
-    text-transform: none; }
+    margin-bottom: 8px; }
   .tile__title, .tile h5 {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0px;
-    line-height: 24px;
-    margin: 0 0 0px;
-    text-decoration: none;
-    text-transform: none; }
+    margin: 0 0 2px; }
     .tile__title:only-child, .tile h5:only-child {
       margin-bottom: 0; }
   .tile p {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    line-height: 24px;
-    margin: 0 0 0px;
-    text-decoration: none;
-    text-transform: none; }
-  .tile__title + p {
-    font-size: 14px;
-    line-height: 21px; }
+    margin: 0; }
   .tile input {
     margin: 0;
     pointer-events: none; }
@@ -165,6 +256,8 @@ body {
     padding: 24px 24px 0 0; }
   .tile:not(.tile--disabled):hover {
     background: #F2FBFC; }
+    .tile:not(.tile--disabled):hover input {
+      border-color: #007B87; }
   .tile--disabled {
     background: #F0F0F0;
     border-color: #d8d8d8;

@@ -1,41 +1,73 @@
 {
   "neutral": {
-    "neutral": {
-      "value": "#8e8e8e",
+    "lighter": {
+      "value": "#EFEFEF",
       "type": "color"
     },
     "light": {
       "value": "#d2d2d2",
       "type": "color"
     },
-    "lighter": {
-      "value": "#efefef",
+    "neutral": {
+      "value": "#8e8e8e",
       "type": "color"
     },
-    "darker": {
-      "value": "#333333",
+    "dark": {
+      "value": "#565656",
       "type": "color"
     },
     "primary-reversed": {
       "value": "#ffffff",
       "type": "color"
+    },
+    "darker": {
+      "value": "#333333",
+      "type": "color"
     }
   },
   "coloured": {
-    "secondary": {
-      "value": "#00314D",
-      "type": "color"
-    },
-    "tertiary04": {
-      "value": "#eef6fb",
+    "primary-light": {
+      "value": "#FBE7EE",
       "type": "color"
     },
     "primary": {
       "value": "#E41C23",
       "type": "color"
     },
+    "primary-dark": {
+      "value": "#B6161C",
+      "type": "color"
+    },
+    "secondary-light": {
+      "value": "#BBDDE6",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#00314D",
+      "type": "color"
+    },
+    "secondary-dark": {
+      "value": "#00374D",
+      "type": "color"
+    },
+    "tertiary01": {
+      "value": "#eef6fb",
+      "type": "color"
+    },
     "tertiary02": {
-      "value": "#EAF2F8",
+      "value": "#D8EFFE",
+      "type": "color"
+    },
+    "tertiary03": {
+      "value": "#E4ECEF",
+      "type": "color"
+    },
+    "tertiary04": {
+      "value": "#eef6fb",
+      "type": "color"
+    },
+    "tertiary05": {
+      "value": "#E2E9F1",
       "type": "color"
     }
   },
@@ -84,7 +116,7 @@
       "type": "color"
     },
     "bg-disabled": {
-      "value": "#efefef",
+      "value": "#EFEFEF",
       "type": "color"
     },
     "border-disabled": {

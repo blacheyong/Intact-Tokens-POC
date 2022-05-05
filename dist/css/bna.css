@@ -273,7 +273,7 @@ body {
     .tile:not(.tile--disabled):hover input {
       border-color: #00314D; }
   .tile--disabled {
-    background: #efefef;
+    background: #EFEFEF;
     border-color: #d2d2d2;
     color: #8e8e8e;
     cursor: default; }

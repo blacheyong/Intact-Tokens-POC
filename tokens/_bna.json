@@ -67,7 +67,7 @@
       "type": "color"
     },
     "tertiary05": {
-      "value": "#E2E9F1",
+      "value": "#CDCDCD",
       "type": "color"
     }
   },
@@ -95,13 +95,13 @@
       "value": "#E41C23",
       "type": "color"
     },
-    "bg": {
-      "value": "#ffffff",
-      "type": "color"
-    },
     "border-radius": {
       "value": 12,
       "type": "borderRadius"
+    },
+    "bg": {
+      "value": "#ffffff",
+      "type": "color"
     },
     "border": {
       "value": "#d2d2d2",
@@ -747,6 +747,10 @@
     },
     "border-disabled": {
       "value": "#d2d2d2",
+      "type": "color"
+    },
+    "bg-disabled": {
+      "value": "#EFEFEF",
       "type": "color"
     }
   }

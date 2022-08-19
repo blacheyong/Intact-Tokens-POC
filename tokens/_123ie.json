@@ -67,11 +67,11 @@
       "type": "color"
     },
     "tertiary04": {
-      "value": "#CCE5F7",
+      "value": "#D8D8D8",
       "type": "color"
     },
     "tertiary05": {
-      "value": "#E2E9F1",
+      "value": "#CDCDCD",
       "type": "color"
     }
   },
@@ -751,6 +751,10 @@
     },
     "border-disabled": {
       "value": "#C6CBD0",
+      "type": "color"
+    },
+    "bg-disabled": {
+      "value": "#F1F3F4",
       "type": "color"
     }
   }

@@ -59,15 +59,15 @@
       "type": "color"
     },
     "primary-light": {
-      "value": "#ffe6ec",
+      "value": "#F5CFCF",
       "type": "color"
     },
     "tertiary04": {
-      "value": "#CCE5F7",
+      "value": "#D8D8D8",
       "type": "color"
     },
     "tertiary05": {
-      "value": "#E2E9F1",
+      "value": "#CDCDCD",
       "type": "color"
     }
   },
@@ -751,6 +751,10 @@
     },
     "border-disabled": {
       "value": "#d8d8d8",
+      "type": "color"
+    },
+    "bg-disabled": {
+      "value": "#F0F0F0",
       "type": "color"
     }
   }

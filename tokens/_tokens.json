@@ -27,47 +27,47 @@
   },
   "coloured": {
     "primary-light": {
-      "value": "#ffe6ec",
+      "value": "#F5CFCF",
       "type": "color"
     },
     "primary": {
-      "value": "#C8102E",
+      "value": "#C81010",
       "type": "color"
     },
     "primary-dark": {
-      "value": "#a10c1c",
+      "value": "#9E0404",
       "type": "color"
     },
     "secondary-light": {
-      "value": "#6EA7E8",
+      "value": "#DBD1F1",
       "type": "color"
     },
     "secondary": {
-      "value": "#0F68D8",
+      "value": "#DF7324",
       "type": "color"
     },
     "secondary-dark": {
-      "value": "#095CC7",
+      "value": "#571BDB",
       "type": "color"
     },
     "tertiary01": {
-      "value": "#F5F8FA",
+      "value": "#FAFAFA",
       "type": "color"
     },
     "tertiary02": {
-      "value": "#EAF2F8",
+      "value": "#F3F3F3",
       "type": "color"
     },
     "tertiary03": {
-      "value": "#DDEDF8",
+      "value": "#E8E8E8",
       "type": "color"
     },
     "tertiary04": {
-      "value": "#CCE5F7",
+      "value": "#D8D8D8",
       "type": "color"
     },
     "tertiary05": {
-      "value": "#E2E9F1",
+      "value": "#CDCDCD",
       "type": "color"
     }
   },
@@ -88,7 +88,7 @@
       "type": "color"
     },
     "border-radius": {
-      "value": 12,
+      "value": 0,
       "type": "borderRadius"
     },
     "border": {
@@ -100,15 +100,15 @@
       "type": "color"
     },
     "bg-hover": {
-      "value": "#EAF2F8",
+      "value": "#F3F3F3",
       "type": "color"
     },
     "border-selected": {
-      "value": "#0F68D8",
+      "value": "#DF7324",
       "type": "color"
     },
     "border-error": {
-      "value": "#C8102E",
+      "value": "#C81010",
       "type": "color"
     },
     "bg-disabled": {
@@ -124,7 +124,7 @@
       "type": "color"
     },
     "icon": {
-      "value": "#0F68D8",
+      "value": "#DF7324",
       "type": "color"
     },
     "subtitle-color": {
@@ -146,30 +146,34 @@
       "type": "color"
     },
     "border-hover": {
-      "value": "#0F68D8",
+      "value": "#DF7324",
       "type": "color"
     },
     "border-error": {
-      "value": "#C8102E",
+      "value": "#C81010",
       "type": "color"
     },
     "border-disabled": {
       "value": "#d8d8d8",
       "type": "color"
+    },
+    "bg-disabled": {
+      "value": "#F0F0F0",
+      "type": "color"
     }
   },
   "font-family-base": {
-    "value": "Roboto",
+    "value": "Lato",
     "type": "fontFamilies"
   },
   "heading": {
     "xl": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "SemiBold",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -199,11 +203,11 @@
     },
     "lg": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "SemiBold",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -232,20 +236,20 @@
       }
     },
     "font-family": {
-      "value": "Montserrat",
+      "value": "Lato",
       "type": "fontFamilies"
     },
     "font-weight": {
-      "value": "SemiBold",
+      "value": "Bold",
       "type": "fontWeights"
     },
     "md": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "SemiBold",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -275,11 +279,11 @@
     },
     "sm": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "SemiBold",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -309,11 +313,11 @@
     },
     "xs": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
-        "value": "SemiBold",
+        "value": "Bold",
         "type": "fontWeight"
       },
       "lineHeight": {
@@ -345,7 +349,7 @@
   "subheading": {
     "xl": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -379,7 +383,7 @@
     },
     "lg": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -413,7 +417,7 @@
     },
     "md": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -447,7 +451,7 @@
     },
     "sm": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -481,7 +485,7 @@
     },
     "xs": {
       "fontFamily": {
-        "value": "Montserrat",
+        "value": "Lato",
         "type": "fontFamily"
       },
       "fontWeight": {
@@ -518,29 +522,29 @@
       "type": "fontWeights"
     },
     "font-family": {
-      "value": "Montserrat",
+      "value": "Lato",
       "type": "fontFamilies"
     }
   },
   "body": {
     "font-family": {
-      "value": "Roboto",
+      "value": "Lato",
       "type": "fontFamilies"
     },
     "bold": {
       "font-weight": {
-        "value": "Medium",
+        "value": "Bold",
         "type": "fontWeights"
       }
     },
     "default": {
       "bold": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -570,7 +574,7 @@
       },
       "regular": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -612,11 +616,11 @@
     "small": {
       "bold": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -646,7 +650,7 @@
       },
       "regular": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
@@ -682,11 +686,11 @@
     "xsmall": {
       "bold": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium",
+          "value": "Bold",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -716,7 +720,7 @@
       },
       "regular": {
         "fontFamily": {
-          "value": "Roboto",
+          "value": "Lato",
           "type": "fontFamily"
         },
         "fontWeight": {
